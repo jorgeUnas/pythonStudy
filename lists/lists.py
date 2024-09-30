@@ -23,3 +23,15 @@ customer_data[1].remove(False)
 # Checkpoint 7
 customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Large", False]]
 print(customer_data_final)
+
+
+# Combining lists 
+
+owners = ["Jenny", "Alexus", "Sam", "Grace"]
+dogs_names = ["Elphonse", "Dr. Doggy DDS", "Carter", "Ralph"]
+
+names_and_dogs_names = zip(owners, dogs_names)
+
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+
+print(list_of_names_and_dogs_names)
